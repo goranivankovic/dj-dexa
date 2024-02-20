@@ -1,0 +1,1015 @@
+ 
+ 
+ .main {
+
+
+     /* min-height: 100vh; */
+     width: 100%;
+     background-color: var(--white);
+     color: var(--black);
+
+     display: flex;
+    flex-direction: column;
+     
+     align-items: center;
+    justify-content: space-around;
+
+background-color: var(--black);
+color: var(--white);
+
+ }
+
+
+ 
+
+ .secondDiv{
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    width: 70rem;
+    min-height: 40rem;
+    display: flex;
+    justify-content: space-between;
+
+
+/* border: 2px solid red; */
+
+
+
+ }
+
+ 
+
+ .secondDiviTems{
+
+   display: flex;
+
+   flex-direction: column;
+
+   width: 50rem;
+   padding: 1em;
+   font-size: var(--servicesText);
+   z-index: 2;
+
+
+    /* border: 2px solid greenyellow; */
+
+
+ }
+
+
+
+ .secondDiviTemsNav{
+
+  background-image: linear-gradient(to right, red,white,var(--blue));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+
+   font-size: var(--servicesHeadline);
+   font-weight: bold;
+
+
+ }
+
+ .secondDiviTemsNav div{
+   padding: .6em;
+
+ }
+
+
+
+
+
+
+ .secondDiviTemsText div{
+color: var(--grey);
+
+   padding: .6em;
+
+ font-weight: 300;
+  text-decoration:var(--grey) line-through;
+
+ }
+
+ .secondDiviTemsText div:hover{
+  color: var(--white);
+  transition: 650ms;
+border-bottom: solid var(--grey);
+border-width: .1em;
+transform: translateX(2rem);
+
+text-decoration: none;
+
+
+ }
+
+ .icons{
+  color: var(--red);
+ }
+
+
+
+
+
+
+ .emptyDiv{
+position: absolute;
+   width: 70rem;
+   min-height: 40rem;
+
+background-image: url('../../image/c.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(1.45px);
+ 
+
+
+ }
+
+ .emptyDiv:hover{
+  transition: 650ms;
+  filter: blur(0px);
+  transform: scale(.95);
+  transform: rotate(-3deg);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ .thrredDiv {
+   margin-top: 1em;
+
+   width: 84rem;
+
+   display: flex;
+
+   justify-content: space-between;
+
+
+/* border: 1px solid yellow; */
+
+
+ }
+
+ .thrredDivItem1 {
+   width: 20rem;
+ 
+
+ }
+
+
+ .thrredDivItem1 img {
+   width: 20rem;
+   height: 23rem;
+   border-radius: .7em;
+   margin-top: 1em;
+
+    border: .15em solid var(--grey);
+
+ }
+
+
+
+
+
+ .thrredDivItem2 {
+   width: 20rem;
+
+ }
+
+
+ .thrredDivItem2 img {
+
+   width: 20rem;
+   height: 23rem;
+   border-radius: .7em;
+   margin-top: 1em;
+   border: .15em solid var(--grey);
+
+ }
+
+
+ .thrredDiv div:nth-child(even) {
+
+   margin-top: 11.5rem;
+ }
+
+
+ .thrredDivItem2 .video {
+   width: 20rem;
+   height: 23rem;
+   object-fit: cover;
+   border-radius: .7em;
+   margin-top: 1em;
+    border: .15em solid var(--grey);
+ }
+
+
+ .thrredDivItem1 img:hover {
+   transform: scale(.96);
+   transition: 750ms;
+   transform: rotate(4deg)translateX(3rem);
+   border: .3em solid var(--red);
+
+ 
+ }
+
+ .thrredDivItem2 img:hover {
+   transform: scale(.96);
+   transition: 750ms;
+    transform: rotate(-4deg)translateX(-3rem);
+   border: .3em solid var(--red);
+ }
+
+
+ .thrredDivItem2 .video:hover {
+   transform: scale(.96);
+   transition: 750ms;
+   transform: rotate(-4deg)translateX(-3rem);
+   border: .3em solid var(--red);
+ }
+
+
+ @media (max-width:84rem) {
+  .thrredDiv {
+      margin-top: 1em;
+  
+      width: 95%;
+  
+      display: flex;
+    
+  
+      justify-content: space-between;
+  
+  
+
+  
+  
+    }
+  
+    .thrredDivItem1 {
+      width:24%;
+  
+  
+    }
+  
+  
+    .thrredDivItem1 img {
+      width: 100%;
+      height: 23rem;
+      border-radius: .7em;
+      margin-top: 1em;
+  
+      border: .15em solid var(--grey);
+  
+    }
+  
+  
+  
+  
+  
+    .thrredDivItem2 {
+      width: 24%;
+  
+    }
+  
+  
+    .thrredDivItem2 img {
+  
+      width: 100%;
+      height: 23rem;
+      border-radius: .7em;
+      margin-top: 1em;
+      border: .15em solid var(--grey);
+  
+    }
+  
+  
+    .thrredDiv div:nth-child(even) {
+  
+      margin-top: 11.5rem;
+    }
+  
+  
+    .thrredDivItem2 .video {
+      width: 100%;
+      height: 23rem;
+      object-fit: cover;
+      border-radius: .7em;
+      margin-top: 1em;
+      border: .15em solid var(--grey);
+    }
+ }
+
+
+
+
+
+
+
+
+
+ @media (max-width:70rem) {
+
+.secondDiv {
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    width: 60rem;
+    min-height: 35rem;
+    display: flex;
+    justify-content: space-between;
+
+
+  
+
+ 
+  }
+
+
+
+    .emptyDiv {
+      position: absolute;
+      width: 60rem;
+      min-height: 35rem;
+  
+      background-image: url('../../image/c.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      filter: blur(1.45px);
+  
+  
+  
+    }
+
+   .thrredDiv {
+     margin-top: 1em;
+
+     width:60rem;
+     flex-wrap: wrap;
+
+     display: flex;
+
+
+     justify-content: space-between;
+
+
+
+
+
+   }
+
+
+    .thrredDiv :nth-child(4){
+      display: none;
+      
+    }
+
+   .thrredDivItem1 {
+     width: 19rem;
+
+
+   }
+
+
+   .thrredDivItem1 img {
+     width: 19rem;
+     height: 22rem;
+     border-radius: .7em;
+     margin-top: 1em;
+
+     border: .15em solid var(--grey);
+
+   }
+
+
+
+
+
+   .thrredDivItem2 {
+     width: 19rem;
+
+   }
+
+
+   .thrredDivItem2 img {
+
+      width: 19rem;
+      height: 22rem;
+     border-radius: .7em;
+     margin-top: 1em;
+     border: .15em solid var(--grey);
+
+   }
+
+
+   .thrredDiv div:nth-child(even) {
+
+     margin-top: 0rem;
+   }
+
+
+   .thrredDivItem2 .video {
+     width: 19rem;
+     height: 22rem;
+     object-fit: cover;
+     border-radius: .7em;
+     margin-top: 1em;
+     border: .15em solid var(--grey);
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:60rem) {
+
+
+
+   .secondDiv {
+     margin-top: 2em;
+     margin-bottom: 2em;
+
+     width: 48rem;
+     min-height: 30rem;
+     display: flex;
+     justify-content: space-between;
+
+overflow: hidden;
+
+
+
+   }
+
+
+
+
+
+
+
+   .emptyDiv {
+     position: absolute;
+     width: 48rem;
+     min-height: 30rem;
+
+     background-image: url('../../image/c.png');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     filter: blur(0px);
+
+
+
+   }
+
+   .thrredDiv {
+     margin-top: 1em;
+
+     width: 48rem;
+     flex-wrap: wrap;
+
+     display: flex;
+
+
+     justify-content: space-around;
+
+
+
+
+
+   }
+
+
+   .thrredDiv :nth-child(4) {
+     display: flex;
+     flex-direction: column;
+          justify-content: space-around;
+   
+
+   }
+
+   .thrredDivItem1 {
+     width: 20rem;
+
+
+   }
+
+
+   .thrredDivItem1 img {
+     width: 20rem;
+     height: 22rem;
+     border-radius: .7em;
+     margin-top: 1em;
+
+     border: .15em solid var(--grey);
+
+   }
+
+
+
+
+
+   .thrredDivItem2 {
+     width: 20rem;
+
+   }
+
+
+   .thrredDivItem2 img {
+
+     width: 20rem;
+     height: 22rem;
+     border-radius: .7em;
+     margin-top: 1em;
+     border: .15em solid var(--grey);
+
+   }
+
+
+   .thrredDiv div:nth-child(even) {
+
+     margin-top: 0rem;
+   }
+
+
+   .thrredDivItem2 .video {
+     width: 20rem;
+     height: 22rem;
+     object-fit: cover;
+     border-radius: .7em;
+     margin-top: 1em;
+     border: .15em solid var(--grey);
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:48rem) {
+
+
+
+   .secondDiv {
+     margin-top: 2em;
+     margin-bottom: 2em;
+
+     width: 40rem;
+     min-height: 30rem;
+     display: flex;
+     justify-content: space-between;
+
+     overflow: hidden;
+
+
+
+   }
+
+ .secondDiviTems {
+
+   display: flex;
+
+   flex-direction: column;
+
+   width: 100%;
+   padding: .5em;
+   font-size: var(--servicesText);
+   z-index: 2;
+
+
+
+
+ }
+
+
+
+
+   .emptyDiv {
+     position: absolute;
+    width: 40rem;
+     min-height: 30rem;
+
+     background-image: url('../../image/c.png');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     filter: blur(0px);
+
+
+
+   }
+
+   .thrredDiv {
+     margin-top: 1em;
+
+     width: 40rem;
+     flex-wrap: wrap;
+
+     display: flex;
+
+
+
+     justify-content: space-around;
+
+
+
+
+
+   }
+
+
+   .thrredDiv :nth-child(4) {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+
+
+   }
+
+   .thrredDivItem1 {
+     width: 19rem;
+
+
+   }
+
+
+   .thrredDivItem1 img {
+     width: 19rem;
+     height: 22rem;
+     border-radius: .7em;
+     margin-top: 1em;
+
+     border: .15em solid var(--grey);
+
+   }
+
+
+
+
+
+   .thrredDivItem2 {
+     width: 19rem;
+
+   }
+
+
+   .thrredDivItem2 img {
+
+     width: 19rem;
+     height: 22rem;
+     border-radius: .7em;
+     margin-top: 1em;
+     border: .15em solid var(--grey);
+
+   }
+
+
+   .thrredDiv div:nth-child(even) {
+
+     margin-top: 0rem;
+   }
+
+
+   .thrredDivItem2 .video {
+     width: 19rem;
+     height: 22rem;
+     object-fit: cover;
+     border-radius: .7em;
+     margin-top: 1em;
+     border: .15em solid var(--grey);
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:40rem) {
+
+
+
+   .secondDiv {
+     margin-top: 2em;
+     margin-bottom: 2em;
+
+     width: 95%;
+     min-height: 25rem;
+     display: flex;
+     justify-content: space-between;
+
+     overflow: hidden;
+     text-align: left;
+
+
+
+   }
+
+
+
+   .emptyDiv {
+     position: absolute;
+     width: 95%;
+     min-height: 25rem;
+
+     background-image: url('../../image/c.png');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     filter: blur(0px);
+
+
+
+   }
+
+   .thrredDiv {
+     margin-top: 1em;
+
+     width: 95%;
+     flex-wrap: wrap;
+
+     display: flex;
+
+
+     justify-content: space-between;
+
+
+
+
+
+   }
+
+
+   .thrredDiv :nth-child(4) {
+     display: flex;
+     flex-direction: column;
+
+
+   }
+
+   .thrredDivItem1 {
+     width: 48%;
+
+
+   }
+
+
+   .thrredDivItem1 img {
+     width: 100%;
+     height: 19rem;
+     border-radius: .7em;
+     margin-top: 1em;
+
+     border: .15em solid var(--grey);
+
+   }
+
+
+
+
+
+   .thrredDivItem2 {
+     width: 48%;
+
+   }
+
+
+   .thrredDivItem2 img {
+
+     width: 100%;
+     height: 19rem;
+     border-radius: .7em;
+     margin-top: 1em;
+     border: .15em solid var(--grey);
+
+   }
+
+
+   .thrredDiv div:nth-child(even) {
+
+     margin-top: 0rem;
+   }
+
+
+   .thrredDivItem2 .video {
+     width: 100%;
+     height: 19rem;
+     object-fit: cover;
+     border-radius: .7em;
+     margin-top: 1em;
+     border: .15em solid var(--grey);
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:30rem) {
+
+.secondDiviTemsNav div {
+    padding: .4em;
+
+  }
+
+
+
+
+
+
+  .secondDiviTemsText div {
+
+
+    padding: .4em;
+
+
+  }
+
+   .secondDiv {
+     margin-top: 2em;
+     margin-bottom: 2em;
+
+     width: 95%;
+     min-height: 25rem;
+     display: flex;
+     justify-content: space-between;
+
+     overflow: hidden;
+
+
+
+   }
+
+
+
+   .emptyDiv {
+     position: absolute;
+     width: 95%;
+     min-height: 25rem;
+
+     background-image: url('../../image/c.png');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     filter: blur(0px);
+
+
+
+   }
+
+   .thrredDiv {
+     margin-top: 1em;
+
+     width: 95%;
+     flex-wrap: wrap;
+
+     display: flex;
+
+
+     justify-content: space-between;
+
+
+
+
+
+   }
+
+
+   .thrredDiv :nth-child(4) {
+     display: flex;
+     flex-direction: column;
+
+
+   }
+
+   .thrredDivItem1 {
+     width: 49%;
+
+
+   }
+
+
+   .thrredDivItem1 img {
+     width: 100%;
+     height: 15rem;
+     border-radius: .7em;
+     margin-top: 1em;
+
+     border: .15em solid var(--grey);
+
+   }
+
+
+
+
+
+   .thrredDivItem2 {
+     width: 49%;
+
+   }
+
+
+   .thrredDivItem2 img {
+
+     width: 100%;
+     height: 15rem;
+     border-radius: .7em;
+     margin-top: 1em;
+     border: .15em solid var(--grey);
+
+   }
+
+
+   .thrredDiv div:nth-child(even) {
+
+     margin-top: 0rem;
+   }
+
+
+   .thrredDivItem2 .video {
+     width: 100%;
+     height: 15rem;
+     object-fit: cover;
+     border-radius: .7em;
+     margin-top: 1em;
+     border: .15em solid var(--grey);
+   }
+ }
+
+
+
+
+
+
+
+ 
+
+

@@ -1,0 +1,45 @@
+
+
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+
+.firstDiv{
+
+    font-size: 2.2rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+
+
+
+  
+}
+
+
+.firstDiv span{
+    padding: .5em;
+}
+
+.firstDiv div{
+    padding: 1em;
+    width: 5rem;
+    height: 5rem;
+    border-top: .2em solid var(--red);
+    border-left: .2em solid var(--white) ;
+    border-right: .2em solid var(--white);
+    border-bottom: .2em solid var(--white);
+    border-radius: 50%;
+   
+    
+
+}

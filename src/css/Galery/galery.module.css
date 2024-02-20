@@ -1,0 +1,357 @@
+
+
+.main{
+  /* min-height: 100vh; */
+  padding-top: 3em;
+
+ width:100%;
+  
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: var(--black);
+
+       
+}
+
+.slider{
+    width: 75rem;
+    height: 40rem;
+    position: relative;
+z-index: 5;
+
+
+  display: flex;
+   justify-content: center;
+ align-items: center;
+ overflow: hidden;
+
+border-radius: .7em;
+margin-bottom: 2em;
+
+/* border: 2px solid red; */
+
+}
+.slider .leftBtn{
+position: absolute;
+  top: calc(50%-5);
+  left: 2%;
+  padding: 1em;
+  width: 5rem;
+  font-size: 2rem;
+  background-color: transparent;
+  font-weight: bolder;
+  color: var(--white);
+
+  border: none;
+
+}
+.slider .rightBtn{
+position: absolute;
+  top: calc(50%-5);
+  right: 2%;
+  padding: 1em;
+  width: 5rem;
+  font-size: 2rem;
+background-color: transparent;
+  font-weight: bolder;
+  color: var(--white);
+
+  border: none;
+}
+
+.slider img{
+  height: 100%;
+  width: 100%;
+border-radius: .7em;
+}
+
+
+@media (max-width:75rem) {
+.slider {
+    width: 60rem;
+    height: 40rem;
+    position: relative;
+    z-index: 5;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    border-radius: .7em;
+    margin-bottom: 2em;
+
+
+  }
+
+  .slider .leftBtn {
+    position: absolute;
+    top: calc(50%-5);
+    left: 2%;
+    padding: 1em;
+    width: 5rem;
+    font-size: 2rem;
+    background-color: transparent;
+    font-weight: bolder;
+    color: var(--white);
+
+    border: none;
+
+  }
+
+  .slider .rightBtn {
+    position: absolute;
+    top: calc(50%-5);
+    right: 2%;
+    padding: 1em;
+    width: 5rem;
+    font-size: 2rem;
+    background-color: transparent;
+    font-weight: bolder;
+    color: var(--white);
+
+    border: none;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:60rem) {
+  .slider {
+    width: 48rem;
+    height: 30rem;
+    position: relative;
+    z-index: 5;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    border-radius: .7em;
+    margin-bottom: 2em;
+
+
+  }
+
+  .slider .leftBtn {
+    position: absolute;
+    top: calc(50%-5);
+    left: 2%;
+    padding: 1em;
+    width: 5rem;
+    font-size: 2rem;
+    background-color: transparent;
+    font-weight: bolder;
+    color: var(--white);
+
+    border: none;
+
+  }
+
+  .slider .rightBtn {
+    position: absolute;
+    top: calc(50%-5);
+    right: 2%;
+    padding: 1em;
+    width: 5rem;
+    font-size: 2rem;
+    background-color: transparent;
+    font-weight: bolder;
+    color: var(--white);
+
+    border: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:48rem) {
+  .slider {
+    width: 95%;
+    height: 25rem;
+    position: relative;
+    z-index: 5;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    border-radius: .7em;
+    margin-bottom: 2em;
+
+
+  }
+
+  .slider .leftBtn {
+    position: absolute;
+    top: calc(50%-5);
+    left: 2%;
+    padding: 1em;
+    width: 5rem;
+    font-size: 1.8rem;
+    background-color: transparent;
+    font-weight: bolder;
+    color: var(--white);
+
+    border: none;
+
+  }
+
+  .slider .rightBtn {
+    position: absolute;
+    top: calc(50%-5);
+    right: 2%;
+    padding: 1em;
+    width: 5rem;
+    font-size: 2rem;
+    background-color: transparent;
+    font-weight: bolder;
+    color: var(--white);
+
+    border: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:40rem) {
+  .slider {
+    width: 95%;
+    height: 23rem;
+    position: relative;
+    z-index: 5;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    border-radius: .7em;
+    margin-bottom: 2em;
+
+
+  }
+
+  .slider .leftBtn {
+    position: absolute;
+    top: calc(50%-5);
+    left: 1%;
+    padding: 1em;
+    width: 3rem;
+    font-size: 1.8rem;
+    background-color: transparent;
+    font-weight: bolder;
+    color: var(--white);
+
+    border: none;
+
+  }
+
+  .slider .rightBtn {
+    position: absolute;
+    top: calc(50%-5);
+    right: 1%;
+    padding: 1em;
+    width: 3rem;
+    font-size: 2rem;
+    background-color: transparent;
+    font-weight: bolder;
+    color: var(--white);
+
+    border: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:30rem) {
+  .slider {
+    width: 97%;
+    height: 20rem;
+    position: relative;
+    z-index: 5;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    border-radius: .7em;
+    margin-bottom: 2em;
+
+
+  }
+
+  .slider .leftBtn {
+    position: absolute;
+    top: calc(50%-5);
+    left: 1%;
+    padding: 1em;
+    width: 3rem;
+    font-size: 1.8rem;
+    background-color: transparent;
+    font-weight: bolder;
+    color: var(--white);
+
+    border: none;
+  
+
+  }
+
+  .slider .rightBtn {
+    position: absolute;
+    top: calc(50%-5);
+    right: 1%;
+    padding: 1em;
+    width: 3rem;
+    font-size: 2rem;
+    background-color: transparent;
+    font-weight: bolder;
+    color: var(--white);
+
+    border: none;
+  }
+
+}

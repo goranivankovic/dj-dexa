@@ -1,0 +1,127 @@
+   .video {
+       object-fit: cover;
+       width: 100%;
+       height: 100vh;
+       position: absolute;
+       top: 0;
+       left: 0;
+
+    background-color: var(--black);
+
+   }
+
+   .logo{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    z-index: 5;
+    color: var(--white);
+    font-size: var(--poceLogo);
+
+    padding: .5em;
+
+    /* border: 2px solid red; */
+
+   }
+
+   .main{
+
+    position: relative;
+    top: 0%;
+    left: 0%;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+
+
+   }
+
+   .firstDiv{
+    padding: .5em;
+ 
+    font-size: var(--poceHeadline);
+    font-weight: bolder;
+
+ 
+/* border: 2px solid teal; */
+
+   }
+
+   .secondDiv{
+    padding: .5em;
+    font-weight: 300;
+ 
+    font-size: var(--poceText);
+
+/* border: 2px solid teal; */
+
+
+   }
+
+   .threedDiv{
+   
+   padding: 1em;
+   width: 10rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+    font-size: var(--poceButton);
+    text-decoration: none;
+    color: var(--white);
+    border: .2em solid var(--red);
+    border-radius: .7em;
+
+
+
+    margin-top: 1em;
+   }
+
+
+.threedDiv:hover{
+    border: none;
+    transition: 650ms;
+    background-color: var(--red);
+    color: var(--white);
+ }
+
+
+
+ @media (max-width:48rem) {
+   .threedDiv {
+   
+         padding: .9em;
+         width: 9rem;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+   
+         font-size: var(--poceButton);
+         text-decoration: none;
+         color: var(--white);
+         border: .2em solid var(--red);
+         border-radius: .7em;
+   
+   
+   
+         margin-top: 1em;
+      }
+
+      .secondDiv {
+         padding: .5em;
+         font-weight: 300;
+         text-align: center;
+   
+         font-size: var(--poceText);
+   
+ 
+   
+      }
+
+
+   
+ }

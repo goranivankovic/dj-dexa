@@ -1,0 +1,340 @@
+
+
+
+
+
+.mainFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    color: var(--white);
+
+
+
+
+}
+
+ .firstDiv {
+    margin-top: 3em;
+    width: 70rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: .5em;
+
+
+    border-bottom: .2em solid var(--grey);
+    color: var(--white);
+
+    font-size: var(--footerMago);
+
+    /* border: 2px solid red; */
+
+}
+
+
+
+ .firstDiv div a {
+    color: var(--white);
+}
+
+.firstDiv div:nth-child(2) {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: var(--foterLinks);
+
+/* border: 2px solid teal; */
+
+}
+
+
+
+ .threedDiv {
+
+    width: 70rem;
+    padding: 1em;
+    margin-bottom: 2em;
+
+    font-size: var(--footerText);
+  
+    /* border: 2px solid yellow; */
+
+}
+
+ .threedDiv div {
+    padding: .5em;
+margin-top: 1em;
+
+    
+}
+ .threedDiv a{
+    margin-top: 1em;
+    text-decoration: none;
+  padding: .5em;
+    color: var(--white);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:70rem) {
+ .firstDiv {
+        margin-top: 2em;
+        width: 60rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: .5em;
+
+
+        border-bottom: .2em solid var(--blue);
+        color: var(--white);
+
+        font-size: var(--footerMago);
+
+
+    }
+
+
+
+     .firstDiv div a {
+        color: var(--white);
+    }
+
+  .firstDiv div:nth-child(2) {
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        font-size: var(--foterLinks);
+
+
+    }
+
+
+    
+
+
+     .threedDiv {
+
+        width: 60rem;
+        padding: 1em;
+        margin-bottom: 2em;
+
+        font-size: var(--footerText);
+
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:60rem) {
+    .firstDiv {
+        margin-top: 2em;
+        width: 48rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: .5em;
+
+
+        border-bottom: .2em solid var(--blue);
+        color: var(--white);
+
+        font-size: var(--footerMago);
+
+
+    }
+
+
+
+    .firstDiv div a {
+        color: var(--white);
+    }
+
+    .firstDiv div:nth-child(2) {
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        font-size: var(--foterLinks);
+
+
+    }
+
+
+
+
+
+    .threedDiv {
+
+        width: 48rem;
+        padding: 1em;
+        margin-bottom: 2em;
+
+        font-size: var(--footerText);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:48rem) {
+    .firstDiv {
+        margin-top: 2em;
+        width: 40rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: .5em;
+
+
+        border-bottom: .2em solid var(--blue);
+        color: var(--white);
+
+        font-size: var(--footerMago);
+
+
+    }
+
+
+
+    .firstDiv div a {
+        color: var(--white);
+    }
+
+    .firstDiv div:nth-child(2) {
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        font-size: var(--foterLinks);
+
+
+    }
+
+
+
+
+
+    .threedDiv {
+
+        width: 40rem;
+        padding: 1em;
+        margin-bottom: 2em;
+
+        font-size: var(--footerText);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:40rem) {
+    .firstDiv {
+        margin-top: 2em;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: .5em;
+
+
+        border-bottom: .2em solid var(--blue);
+        color: var(--white);
+
+        font-size: var(--footerMago);
+
+
+    }
+
+
+
+    .firstDiv div a {
+        color: var(--white);
+    }
+
+    .firstDiv div:nth-child(2) {
+        width: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        font-size: var(--foterLinks);
+
+
+    }
+
+
+
+
+
+    .threedDiv {
+
+        width: 95%;
+        padding: .5em;
+        margin-bottom: 2em;
+
+        font-size: var(--footerText);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
