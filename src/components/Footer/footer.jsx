@@ -30,7 +30,7 @@ function footer() {
 
 
                <div className={footerStyle.threedDiv}>
-                  <a href='https://ma-go.net' target="_blank">Copyright © {year} ma<span style={{color: "#cd5959"}}>G</span>o</a>
+                  <a href='https://ma-go.org' target="_blank">Copyright © {year} ma<span style={{color: "#cd5959"}}>G</span>o</a>
                   <div>All rights reserved.</div>
 
                </div>

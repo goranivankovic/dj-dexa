@@ -26,6 +26,7 @@ const images=[i8,i5,i2,i1,i6]
 
 function galery() {
   const[num,setNum]=useState(0)
+   const [isOpen, setIsOpen] = useState(false)
 
 
 function rightArrow() {
@@ -33,8 +34,10 @@ function rightArrow() {
 
   if (num == 4) {
     setNum(0)
+
   }else{
     setNum(num+1)
+  
   }
 
   
@@ -67,7 +70,9 @@ function leftArrow() {
          onClick={leftArrow}
         
         >{"<"}</button>
-           <img src={[images[num]]} alt="" />
+           <img
+           
+            src={[images[num]]} alt="" />
 
         <button className={galeryStyls.rightBtn}
         onClick={rightArrow}
